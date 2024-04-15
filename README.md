@@ -54,7 +54,7 @@ a přehled implementovaných funkcionalit.
 # Infomace k projektu:
 Projekt není nikde veřejně nasazen. Je nutné si stáhnout z repozatáře a rozjet na lokílním prostředí.
 
-- data pro projekt jsou v přiložených JSON souborech (v projektu je funkce pro vygenerování)
+- data pro projekt jsou v přiložených JSON souborech (v projektu je i funkce, kterou bylo vygenerováno)
 - projekt obsahuje jednoduchou hlavičku s názvem projektu a odkazem pro přesměrování na list (v případě menšího rozlišení se nastaví na "hamburger menu")
 - dle zadání je obsahuje projekt dvě samostatné stránky pro list a detail (aktuálně je list považován na "Homepage")
 - na listu je k dispozici:
