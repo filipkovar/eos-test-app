@@ -1,0 +1,46 @@
+<h1 mat-dialog-title class="bg-secondary-subtle">
+    {{ memberDialogData.message }}
+</h1>
+<div mat-dialog-content>
+    <form [formGroup]="form">
+        <mat-form-field [hidden]="update" class="w-100">
+            <mat-label>Members</mat-label>
+            <select matNativeControl formControlName="members" (change)="onMemberChange($event)">
+                <option *ngFor="let member of members" [value]="member.id">
+                    {{ member.firstname + ' ' + member.lastname }}
+                </option>
+            </select>
+        </mat-form-field>
+
+        <mat-form-field [hidden]="!update" class="w-100">
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName="firstname" />
+            <mat-error *ngIf="form.controls.firstname.invalid && form.controls.firstname.touched"> Please enter a valid first name. </mat-error>
+        </mat-form-field>
+
+        <mat-form-field [hidden]="!update" class="w-100">
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName="lastname" />
+            <mat-error *ngIf="form.controls.lastname.invalid && form.controls.lastname.touched"> Please enter a valid last name. </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="w-100">
+            <mat-label>Position</mat-label>
+            <select matNativeControl formControlName="position">
+                <option *ngFor="let position of memberDialogData.positions" [value]="position.name">
+                    {{ position.name }}
+                </option>
+            </select>
+        </mat-form-field>
+
+        <mat-checkbox class="w-100" formControlName="isCoach">Is Coach</mat-checkbox>
+
+        <mat-checkbox class="w-100" formControlName="isPlayer">Is Player</mat-checkbox>
+    </form>
+</div>
+<div mat-dialog-actions class="d-flex justify-content-end">
+    <button mat-flat-button (click)="onCancel()" color="warn">Cancel</button>
+    <button mat-flat-button (click)="onConfirm()" [disabled]="form.invalid" color="primary">
+        {{ this.update ? 'Update' : 'Add' }}
+    </button>
+</div>

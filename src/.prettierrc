@@ -1,0 +1,17 @@
+{
+    "singleQuote": true,
+    "tabWidth": 4,
+    "printWidth": 250,
+    "bracketSpacing": false,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "overrides": [
+        {
+            "files": ["*.html"],
+            "options": {
+                "parser": "angular",
+                "printWidth": 200
+            }
+        }
+    ]
+}

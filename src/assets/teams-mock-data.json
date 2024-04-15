@@ -1,0 +1,556 @@
+[
+    {
+        "id": "1127a068-2ce1-46e2-adf1-93dfe6cf6ebf",
+        "name": "Cobras 1",
+        "members": [
+            {
+                "id": "3986b60f-da8c-40c7-a246-14f4551d6d5e",
+                "firstname": "Jakub",
+                "lastname": "Kovářová",
+                "position": "Brankař",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "fca6e086-3fd8-48af-9552-87d884afe13f",
+                "firstname": "Jan",
+                "lastname": "Hrubý",
+                "position": "Náhradník",
+                "isPlayer": true,
+                "isCoach": true
+            }
+        ]
+    },
+    {
+        "id": "a15ed67b-882d-4e33-998b-fbaf742d628a",
+        "name": "Tigers 2",
+        "members": [
+            {
+                "id": "a7be00ab-f6e8-4c87-bfb0-533d6ddacea8",
+                "firstname": "Marek",
+                "lastname": "Křížová",
+                "position": "Obrana",
+                "isPlayer": true,
+                "isCoach": true
+            },
+            {
+                "id": "d1e4e04f-8777-40c4-b1ab-e1815d111c32",
+                "firstname": "Kateřina",
+                "lastname": "Novák",
+                "position": "Brankař",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "18b984a4-a8af-4a9c-8968-0ac0b8e1ef22",
+                "firstname": "Lucie",
+                "lastname": "Kovářová",
+                "position": "Náhradník",
+                "isPlayer": true,
+                "isCoach": false
+            }
+        ]
+    },
+    {
+        "id": "2bd55355-e7bb-4502-bea3-cb0186bd1d63",
+        "name": "Wolves 3",
+        "members": [
+            {
+                "id": "d73cb3b8-8084-41a8-ab26-95d32a23118e",
+                "firstname": "Petr",
+                "lastname": "Lišková",
+                "position": "Obrana",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "77217ced-ffa2-4778-ac4f-3cdb000f22ca",
+                "firstname": "Jakub",
+                "lastname": "Nováková",
+                "position": "Obrana",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "c1cc77fd-3ff8-423b-813d-f805d6703f49",
+                "firstname": "Petr",
+                "lastname": "Kučera",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": true
+            }
+        ]
+    },
+    {
+        "id": "52b31049-ee0a-4584-8f30-d54737e9b58b",
+        "name": "Pythons 4",
+        "members": [
+            {
+                "id": "2a9e41aa-efb9-43b1-abf9-63324a850680",
+                "firstname": "Tomáš",
+                "lastname": "Dvořák",
+                "position": "Útok",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "c932c163-cd9d-49c7-95e3-1e910574c5e4",
+                "firstname": "Adam",
+                "lastname": "Svoboda",
+                "position": "Obrana",
+                "isPlayer": true,
+                "isCoach": false
+            },
+            {
+                "id": "e6dcdf47-14fb-4a93-8816-323cc312efc3",
+                "firstname": "Petra",
+                "lastname": "Pospíšilová",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "23d25928-7eff-4073-a664-6847f1e739a6",
+                "firstname": "Lucie",
+                "lastname": "Kučera",
+                "position": "Útok",
+                "isPlayer": false,
+                "isCoach": true
+            }
+        ]
+    },
+    {
+        "id": "7a99e8b5-5c0a-4aa5-b06a-dcc97ad37150",
+        "name": "Panthers 5",
+        "members": [
+            {
+                "id": "b74e45c7-4906-4f08-aac8-02d59dab1a88",
+                "firstname": "Michaela",
+                "lastname": "Svoboda",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "6b747f1a-c740-40f0-8d56-e56107439d03",
+                "firstname": "Lucie",
+                "lastname": "Nový",
+                "position": "Brankař",
+                "isPlayer": true,
+                "isCoach": true
+            },
+            {
+                "id": "090e1cb7-e90b-4ab8-ac2b-30eea1a7d1ac",
+                "firstname": "Jan",
+                "lastname": "Dvořák",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "bee117d5-e885-4c11-964b-8affc93d59c8",
+                "firstname": "Tomáš",
+                "lastname": "Malý",
+                "position": "Brankař",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "18af05bc-2fc7-485e-af49-7499e6cda74d",
+                "firstname": "Eva",
+                "lastname": "Malý",
+                "position": "Útok",
+                "isPlayer": true,
+                "isCoach": false
+            }
+        ]
+    },
+    {
+        "id": "64c575eb-9402-4b4a-8bb3-dcd3f9aad3ea",
+        "name": "Sharks 6",
+        "members": [
+            {
+                "id": "d28c0fb8-f571-49ed-90eb-9c9abfb7dcfd",
+                "firstname": "Petr",
+                "lastname": "Kovářová",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "1bb9d5b8-ffbe-4a02-a6aa-0b41c3d526ad",
+                "firstname": "Jana",
+                "lastname": "Novák",
+                "position": "Obrana",
+                "isPlayer": true,
+                "isCoach": false
+            },
+            {
+                "id": "881141a4-b77c-44b5-be16-e4281e823dac",
+                "firstname": "Kateřina",
+                "lastname": "Marešová",
+                "position": "Obrana",
+                "isPlayer": true,
+                "isCoach": false
+            },
+            {
+                "id": "1e6e61fb-3bd2-4dd3-b550-5cc8b060163a",
+                "firstname": "Tomáš",
+                "lastname": "Nová",
+                "position": "Brankař",
+                "isPlayer": true,
+                "isCoach": true
+            },
+            {
+                "id": "4b66d6a7-d81a-4355-b831-991ff0360c28",
+                "firstname": "Michaela",
+                "lastname": "Pospíšilová",
+                "position": "Náhradník",
+                "isPlayer": true,
+                "isCoach": false
+            }
+        ]
+    },
+    {
+        "id": "6ffc2017-37ec-41db-ab41-26ca68d2cc86",
+        "name": "Leopards 7",
+        "members": [
+            {
+                "id": "a8554eaa-e779-4ea5-80ad-3a376c4b81c1",
+                "firstname": "Tomáš",
+                "lastname": "Pospíšilová",
+                "position": "Útok",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "13ae3c87-2e97-4704-86e4-2718f133646e",
+                "firstname": "Kateřina",
+                "lastname": "Novotná",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "79850387-29e0-4405-ba18-79b29993593c",
+                "firstname": "Michaela",
+                "lastname": "Kučera",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "68d226d7-d224-41ae-b902-65be52b87376",
+                "firstname": "Jana",
+                "lastname": "Novák",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "ccd54782-1b49-4c40-b560-121024a657bb",
+                "firstname": "Petra",
+                "lastname": "Procházka",
+                "position": "Útok",
+                "isPlayer": true,
+                "isCoach": true
+            }
+        ]
+    },
+    {
+        "id": "a2778eb6-90e4-4a5a-bd05-f71f66f85953",
+        "name": "Jaguars 8",
+        "members": [
+            {
+                "id": "34a9006d-9193-4144-ae6c-0c1574aa5072",
+                "firstname": "Lukáš",
+                "lastname": "Bartoš",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "297898da-f5d1-4c19-afd3-3753feeedf9c",
+                "firstname": "Daniel",
+                "lastname": "Nováková",
+                "position": "Útok",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "36b472ba-dc51-4da1-b50e-24395aea22b0",
+                "firstname": "Petra",
+                "lastname": "Lišková",
+                "position": "Brankař",
+                "isPlayer": true,
+                "isCoach": true
+            }
+        ]
+    },
+    {
+        "id": "67712f70-de22-450f-8063-aea12fcb841c",
+        "name": "Panthers 9",
+        "members": [
+            {
+                "id": "023fe564-f6be-43eb-8b6d-bc115f8c1b14",
+                "firstname": "Filip",
+                "lastname": "Kadlecová",
+                "position": "Útok",
+                "isPlayer": true,
+                "isCoach": false
+            },
+            {
+                "id": "8850f570-595a-4416-80ce-7b3379a20a15",
+                "firstname": "Petr",
+                "lastname": "Novák",
+                "position": "Náhradník",
+                "isPlayer": true,
+                "isCoach": true
+            },
+            {
+                "id": "25e6d62c-3d8e-4738-821c-6117d02ee62f",
+                "firstname": "David",
+                "lastname": "Svoboda",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": true
+            }
+        ]
+    },
+    {
+        "id": "f6e95f57-f8ea-41af-955c-6f8ad382cc79",
+        "name": "Sharks 10",
+        "members": [
+            {
+                "id": "6bf8c659-e534-490b-ac0f-591c9afa2c11",
+                "firstname": "Petr",
+                "lastname": "Dvořák",
+                "position": "Útok",
+                "isPlayer": true,
+                "isCoach": false
+            },
+            {
+                "id": "a8c6330a-81ac-4e42-b07e-7718032894c8",
+                "firstname": "David",
+                "lastname": "Malý",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "b9556c10-f252-4db7-9c27-d0a2450f7cd0",
+                "firstname": "Karolína",
+                "lastname": "Hrubý",
+                "position": "Brankař",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "b3b3f76f-349d-4090-ace1-b1b845386218",
+                "firstname": "Lucie",
+                "lastname": "Novák",
+                "position": "Útok",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "11f7eb63-6774-42ad-9b45-5fd6a7de9bc5",
+                "firstname": "David",
+                "lastname": "Kovářová",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": true
+            }
+        ]
+    },
+    {
+        "id": "bbe9a103-7d54-4310-a717-c23f21acfc82",
+        "name": "Lions 11",
+        "members": [
+            {
+                "id": "5b0cad51-2dbc-4a5e-a437-f3ba5875ec08",
+                "firstname": "Martina",
+                "lastname": "Kučera",
+                "position": "Náhradník",
+                "isPlayer": true,
+                "isCoach": true
+            },
+            {
+                "id": "56b4e90b-7b2c-4c9b-b73c-afe43e4a4b70",
+                "firstname": "Jan",
+                "lastname": "Lišková",
+                "position": "Záloha",
+                "isPlayer": true,
+                "isCoach": false
+            }
+        ]
+    },
+    {
+        "id": "0b5a6409-98e1-4be7-834a-e90698946ada",
+        "name": "Bulls 12",
+        "members": [
+            {
+                "id": "ddcee4e4-7462-4bcf-b3b6-2bb795d70c6e",
+                "firstname": "Veronika",
+                "lastname": "Novák",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "41cd4732-0091-4b98-9fb9-5a74e2540347",
+                "firstname": "Petr",
+                "lastname": "Nováková",
+                "position": "Brankař",
+                "isPlayer": true,
+                "isCoach": false
+            },
+            {
+                "id": "8e33f8bf-fbbd-49f8-b981-c2bbf237bef7",
+                "firstname": "Michaela",
+                "lastname": "Novák",
+                "position": "Náhradník",
+                "isPlayer": true,
+                "isCoach": true
+            },
+            {
+                "id": "b3aabcd1-cfb2-4cfb-b8e3-0e32bc3d2e16",
+                "firstname": "Jana",
+                "lastname": "Marešová",
+                "position": "Útok",
+                "isPlayer": false,
+                "isCoach": false
+            },
+            {
+                "id": "cdf78389-de21-4d2a-a078-af0c4598da46",
+                "firstname": "Simona",
+                "lastname": "Křížová",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": false
+            }
+        ]
+    },
+    {
+        "id": "b01f0c14-e0dc-4fb7-9ebe-66d74cb0648f",
+        "name": "Pumas 13",
+        "members": [
+            {
+                "id": "1fb6b341-1334-48fb-b3ba-e4d68f5d5a52",
+                "firstname": "Petra",
+                "lastname": "Kučera",
+                "position": "Obrana",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "72927719-e1bc-4d25-a6b9-47980f3903a0",
+                "firstname": "Lukáš",
+                "lastname": "Křížová",
+                "position": "Brankař",
+                "isPlayer": true,
+                "isCoach": false
+            },
+            {
+                "id": "06d630b2-88d0-4c1a-9c79-97d78c510bdd",
+                "firstname": "Daniel",
+                "lastname": "Bartoš",
+                "position": "Záloha",
+                "isPlayer": true,
+                "isCoach": true
+            },
+            {
+                "id": "0df7ecc0-5cad-4594-bf84-784e1f989ded",
+                "firstname": "Daniel",
+                "lastname": "Dvořák",
+                "position": "Brankař",
+                "isPlayer": true,
+                "isCoach": false
+            },
+            {
+                "id": "a8158e79-3812-4c60-8474-60fcbdf25286",
+                "firstname": "Lucie",
+                "lastname": "Křížová",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": false
+            }
+        ]
+    },
+    {
+        "id": "7dbf81c7-756e-44b8-a99c-577efcb8b862",
+        "name": "Wolves 14",
+        "members": [
+            {
+                "id": "8229ffed-2130-4d9b-a275-d98bbf0a07a4",
+                "firstname": "David",
+                "lastname": "Malý",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "1c8241ea-5e7f-4db2-98d5-e9d213a5222f",
+                "firstname": "Jakub",
+                "lastname": "Nová",
+                "position": "Náhradník",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "529a3a3f-979b-48a5-a6c9-d1a5d0d60e64",
+                "firstname": "Petr",
+                "lastname": "Pospíšilová",
+                "position": "Obrana",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "a3028604-f155-4ed8-9c20-fea319657dda",
+                "firstname": "Simona",
+                "lastname": "Procházka",
+                "position": "Útok",
+                "isPlayer": false,
+                "isCoach": true
+            }
+        ]
+    },
+    {
+        "id": "f5fd20a1-763a-457e-9b93-ffe1714d1456",
+        "name": "Sharks 15",
+        "members": [
+            {
+                "id": "7a3e383e-b01a-4d76-a36a-67426ea7bebf",
+                "firstname": "Jana",
+                "lastname": "Kadlecová",
+                "position": "Náhradník",
+                "isPlayer": true,
+                "isCoach": true
+            },
+            {
+                "id": "7a9738d9-8704-4bc6-a004-2d0014f469d4",
+                "firstname": "Daniel",
+                "lastname": "Kovářová",
+                "position": "Záloha",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "c6cfe49b-1957-4aae-95fb-701c0a6d589b",
+                "firstname": "Veronika",
+                "lastname": "Marešová",
+                "position": "Brankař",
+                "isPlayer": false,
+                "isCoach": true
+            },
+            {
+                "id": "4889c52e-1e80-4d9c-9187-657566dd7a17",
+                "firstname": "Petr",
+                "lastname": "Novák",
+                "position": "Útok",
+                "isPlayer": false,
+                "isCoach": false
+            }
+        ]
+    }
+]

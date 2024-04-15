@@ -1,0 +1,10 @@
+@import 'variables';
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-background {
+    background: $color-header-background !important;
+}
