@@ -73,6 +73,7 @@ export class TeamListComponent implements OnInit {
     public search(searchText: string): void {
         if (!searchText) {
             this.uiService.showErrorMessage('No name to search!', 'Error');
+            this.loadData();
             return;
         }
         this.searchText = searchText;

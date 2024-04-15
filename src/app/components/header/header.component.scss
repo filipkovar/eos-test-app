@@ -5,6 +5,10 @@
     box-shadow: none;
 }
 
-.custom-background {
+.header-custom {
     background: $color-header-background !important;
+
+    a {
+        color: $color-header !important;
+    }
 }

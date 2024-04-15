@@ -49,7 +49,7 @@ export class UiService {
         } else if (colorsMapId === 3) {
             value = 'red';
         } else {
-            value = '#f3f3f3';
+            value = '#3f51b5';
         }
         document.documentElement.style.setProperty('--app-color-header-background', value);
     }

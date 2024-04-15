@@ -2,8 +2,11 @@
  * Colors
  */
 :root {
-    --app-color-header-background: #f3f3f3;
+    --app-color-header-background: #3f51b5;
+    --app-color-header: #ffffff;
 }
 
 $color-header-background: var(--app-color-header-background);
+$color-header: var(--app-color-header);
+
 

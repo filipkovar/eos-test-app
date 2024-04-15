@@ -1,6 +1,10 @@
 @import '../../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
 @import 'variables';
 
+body {
+    background-color: #f3f3f3 !important;
+}
+
 .toast-custom {
     top: 5% !important;
     right: auto !important;
