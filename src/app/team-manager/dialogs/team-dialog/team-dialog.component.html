@@ -1,0 +1,19 @@
+<h1 mat-dialog-title class="bg-secondary-subtle">
+    {{ teamDialogData.message }}
+</h1>
+<div mat-dialog-content>
+    <form [formGroup]="form">
+        <mat-form-field class="w-100">
+            <mat-label>Team name</mat-label>
+            <input matInput formControlName="name" />
+            <mat-hint>Enter the name of the new team.</mat-hint>
+            <mat-error *ngIf="form.controls.name.invalid && form.controls.name.touched"> Please enter a valid team name. </mat-error>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions class="d-flex justify-content-end">
+    <button mat-flat-button (click)="onCancel()" color="warn">Cancel</button>
+    <button mat-flat-button (click)="onConfirm()" [disabled]="form.invalid" color="primary">
+        {{ this.update ? 'Update' : 'Add' }}
+    </button>
+</div>
