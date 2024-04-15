@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="w-100 d-flex justify-content-end">
+        <button mat-icon-button (click)="setStyle(1)" matTooltip="Green header color"><mat-icon>looks_one</mat-icon></button>
+        <button mat-icon-button (click)="setStyle(2)" matTooltip="Blue header color"><mat-icon>looks_two</mat-icon></button>
+        <button mat-icon-button (click)="setStyle(3)" matTooltip="Red header color"><mat-icon>looks_3</mat-icon></button>
+        <button mat-icon-button (click)="setStyle(0)" matTooltip="Default header color"><mat-icon>disabled_by_default</mat-icon></button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg p-2 my-2 shadow-sm custom-background border rounded">
+        <div class="container justify-content-between">
+            <a class="navbar-brand" [routerLink]="['/list']">Team manager</a>
+            <button
+                (click)="collapsed = !collapsed"
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div [class.collapse]="collapsed" class="navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link d-flex align-items-center" [routerLink]="['/list']">
+                            <mat-icon>format_list_bulleted</mat-icon>
+                            <span>Team list</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
